@@ -1,0 +1,14 @@
+{
+    "wood": {
+        "price": 1,
+        "sellprice": 1
+    },
+    "stone": {
+        "price": 2,
+        "sellprice": 1
+    },
+    "iron": {
+        "price": 5,
+        "sellprice": 3
+    }
+}

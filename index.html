@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tycoon</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="container-onglets">
+            <div class="onglets active-onglet" data-anim="1">Informations</div>
+            <div class="onglets" data-anim="2">Inventaire</div>
+            <div class="onglets" data-anim="3">Market</div>
+        </div>
+
+        <div id="informations" class="contenu active-contenu" data-anim="1">
+            <p id="money">
+                <span>Argent : </span>
+                <span id="money-value"></span>
+            </p>
+            <p id="mps">
+                <span>Argent par seconde : </span>
+                <span id="mps-value"></span>
+            </p>
+        </div>
+        <div id="inventory" class="contenu" data-anim="2">
+            
+        </div>
+        <div id="market" class="contenu" data-anim="3">
+
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

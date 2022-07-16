@@ -1,0 +1,9 @@
+{
+    "money": 0,
+    "prestige": 0,
+    "inventary": {
+        "wood": 0,
+        "stone": 0,
+        "iron": 0
+    }
+}
